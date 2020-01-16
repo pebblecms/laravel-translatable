@@ -2,6 +2,10 @@
 
 Make Eloquent model attributes translatables using Translations table
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pebblecms/laravel-translatable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pebblecms/laravel-translatable/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/pebblecms/laravel-translatable/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/pebblecms/laravel-translatable/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/pebblecms/laravel-translatable/badges/build.png?b=master)](https://scrutinizer-ci.com/g/pebblecms/laravel-translatable/build-status/master)
+[![StyleCI](https://github.styleci.io/repos/234410666/shield?branch=master)](https://github.styleci.io/repos/234410666)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Laravel 6.x](https://img.shields.io/badge/Laravel-6.x-orange.svg)](http://laravel.com)
 

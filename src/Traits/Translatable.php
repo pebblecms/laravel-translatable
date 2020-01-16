@@ -95,7 +95,7 @@ trait Translatable
         if (! empty($translation)) {
             $translation->content = $content;
             $translation->save();
-        } else if(!empty ($this->id)) {
+        } elseif (! empty($this->id)) {
             $this->translations()->create([
                 'field' => $field,
                 'locale' => $locale,
@@ -104,7 +104,7 @@ trait Translatable
         } else {
             $this->tempTranslations[$field] = [
                 'locale' => $locale,
-                'content' => $content
+                'content' => $content,
             ];
         }
 
@@ -180,8 +180,8 @@ trait Translatable
     {
         $response = $this->originalSave($options);
 
-        if($response === true) {
-            foreach($this->tempTranslations as $field => $data) {
+        if ($response === true) {
+            foreach ($this->tempTranslations as $field => $data) {
                 $this->setTranslation($field, $data['locale'] ?? null, $data['content'] ?? null);
             }
         }
